@@ -17,7 +17,7 @@ public class JBACommand implements Command {
     public void onCommand(User user, TextChannel textChannel, Message message, String[] strings, Member member) {
 
         textChannel.sendMessage(new EmbedBuilder()
-                .setAuthor("Is JBA good?", null, "https://cdn.discordapp.com/avatars/158310004187725824/4ebe50dc71133e00ed3ede284e5d873f.png")
+                .setAuthor("Is JBA good?", "http://walshydev.com", "https://cdn.discordapp.com/avatars/158310004187725824/4ebe50dc71133e00ed3ede284e5d873f.png")
                 .setDescription(":white_check_mark: Currently, JBA is good \n Evil Walshy could overthrow us though!")
                 .setImage("https://cdn.discordapp.com/avatars/158310004187725824/4ebe50dc71133e00ed3ede284e5d873f.png")
                 .setColor(Color.ORANGE)

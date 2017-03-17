@@ -17,7 +17,7 @@ public class ArsenIsHard implements Command {
     public void onCommand(User user, TextChannel textChannel, Message message, String[] strings, Member member) {
 
         textChannel.sendMessage(new EmbedBuilder()
-                .setAuthor("ArsenArsen", null, "https://cdn.discordapp.com/avatars/155954930191040513/62b008eaab4db286f4dd66fa8f968570.png")
+                .setAuthor("ArsenArsen", "https://arsenarsen.com", "https://cdn.discordapp.com/avatars/155954930191040513/62b008eaab4db286f4dd66fa8f968570.png")
                 .setDescription("one kid pissed me off and I almost broke his bones\n" + "dont\n" + "do it")
                 .setColor(Color.YELLOW)
                 .build())
